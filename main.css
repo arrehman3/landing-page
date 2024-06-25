@@ -1,0 +1,232 @@
+/* 
+.header{
+    background-color: aqua;
+    
+}
+
+.uppersection{
+    display: flex;
+    justify-content: space-between ;
+    flex: 1 1 auto;
+    align-items: self-start;
+    padding: 20px;
+}
+.lowersection{
+    display: flex;
+    background-color: inherit;
+    align-items: center;
+    justify-content: space-around;
+}
+.lower.text{
+    max-width: 600px;
+  
+}
+#logo,#myimage{
+    background-color: inherit;
+    border-style:none;
+    padding: 2px;
+}
+#logo{
+    padding-left: 70%;
+}
+.links{
+    display: flex;
+    gap: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+.projectSectiondiv{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+figcaption{
+    max-width: 200px;
+    text-align: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+}
+.quote.text{
+    max-width: 600px;
+    text-align: center;
+}
+.quote.author{
+    font-style: italic;
+    font-size: small;
+    padding-left: 300px;
+}
+.certificates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    flex-wrap: wrap;
+    background-color: bisque
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px 0; 
+    width: 100%; 
+    bottom: 0; 
+  } */
+
+  .header {
+    background-color: lightblue; /* Softer color for better readability */
+}
+
+/* Upper section */
+.uppersection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Corrected align-items value */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light grey background for better contrast */
+}
+
+/* Lower section */
+.lowersection {
+    display: flex;
+    background-color: inherit;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.lower.text {
+    max-width: 600px;
+    padding: 10px; /* Added padding for better text spacing */
+}
+
+/* Logo and image styles */
+#logo, #myimage {
+    background-color: inherit;
+    border-style: none;
+    padding: 2px;
+    border-radius: 50%; 
+    overflow: hidden;
+}
+
+#logo {
+    padding-left: 70%;
+}
+
+/* Links section */
+.links {
+    display: flex;
+    gap: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Darker color for better contrast */
+    font-size: medium;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+a:hover {
+    color: #007BFF; /* Color change on hover */
+}
+
+/* Project section */
+.projectSectiondiv {
+    background-color: #faf3e0; /* Softer antiquewhite */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Added padding for spacing */
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Added gap for spacing */
+}
+
+figcaption {
+    max-width: 200px;
+    text-align: center;
+}
+
+/* Quote section */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue; /* Matching header background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.quote.text {
+    max-width: 600px;
+    text-align: center;
+}
+
+.quote.author {
+    font-style: italic;
+    font-size: small;
+    margin-top: 10px; /* Margin for spacing */
+}
+
+/* Certificates section */
+.certificates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: bisque;
+    padding: 20px; /* Added padding */
+    gap: 20px; /* Added gap for spacing */
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Added gap for spacing */
+}
+
+/* Footer */
+.footer {
+    background-color: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 20px 0; 
+    width: 100%; 
+
+    bottom: 0; 
+}  
